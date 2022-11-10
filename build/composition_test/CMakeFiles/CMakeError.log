@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make cmTC_96b30/fast && /bin/make -f CMakeFiles/cmTC_96b30.dir/build.make CMakeFiles/cmTC_96b30.dir/build
+make[1]: 进入目录“/home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_96b30.dir/src.c.o
+/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_96b30.dir/src.c.o   -c /home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_96b30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b30.dir/link.txt --verbose=1
+/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_96b30.dir/src.c.o  -o cmTC_96b30 
+/bin/ld: CMakeFiles/cmTC_96b30.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_96b30.dir/build.make:87：cmTC_96b30] 错误 1
+make[1]: 离开目录“/home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_96b30/fast] 错误 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make cmTC_999a6/fast && /bin/make -f CMakeFiles/cmTC_999a6.dir/build.make CMakeFiles/cmTC_999a6.dir/build
+make[1]: 进入目录“/home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_999a6.dir/CheckFunctionExists.c.o
+/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_999a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_999a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_999a6.dir/link.txt --verbose=1
+/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_999a6.dir/CheckFunctionExists.c.o  -o cmTC_999a6  -lpthreads 
+/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_999a6.dir/build.make:87：cmTC_999a6] 错误 1
+make[1]: 离开目录“/home/peter/component_test/build/composition_test/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_999a6/fast] 错误 2
+
+
+

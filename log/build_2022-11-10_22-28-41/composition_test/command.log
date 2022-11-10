@@ -1,0 +1,4 @@
+Invoking command in '/home/peter/component_test/build/composition_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/component_test/build/composition_test -- -j16 -l16
+Invoked command in '/home/peter/component_test/build/composition_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/component_test/build/composition_test -- -j16 -l16
+Invoking command in '/home/peter/component_test/build/composition_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/component_test/build/composition_test
+Invoked command in '/home/peter/component_test/build/composition_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/component_test/build/composition_test

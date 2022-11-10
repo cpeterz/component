@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (composition_test) JobQueued: {'identifier': 'composition_test', 'dependencies': OrderedDict()}
+[0.000629] (composition_test) JobStarted: {'identifier': 'composition_test'}
+[0.010648] (composition_test) JobProgress: {'identifier': 'composition_test', 'progress': 'cmake'}
+[0.010861] (composition_test) Command: {'cmd': ['/bin/cmake', '/home/peter/component_test/src', '-DCMAKE_INSTALL_PREFIX=/home/peter/component_test/install/composition_test'], 'cwd': '/home/peter/component_test/build/composition_test', 'env': OrderedDict([('USER', 'peter'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '2151'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peter/component_test/install/composition_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/peter'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/peter/component_test'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/peter/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1850'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8a5cfea1a1c17a53d3c1fe61636d01d6'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6427'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/peter/component_test/install'), ('LOGNAME', 'peter'), ('JOURNAL_STREAM', '8:49467'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'peter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:@/tmp/.ICE-unix/2225,unix/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:/tmp/.ICE-unix/2225'), ('INVOCATION_ID', '91216eea845e430cb881cb278e8f338c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-335cb9d9f6.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/peter/component_test/install/composition_test:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'zh_CN.UTF-8'), ('PWD', '/home/peter/component_test/build/composition_test'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8a5cfea1a1c17a53d3c1fe61636d01d6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/tmp/vscode-zsh'), ('_P9K_TTY', '/dev/pts/2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/peter/component_test/install/composition_test:/opt/ros/foxy')]), 'shell': False}
+[0.064175] (composition_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099499] (-) TimerEvent: {}
+[0.112211] (composition_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.116892] (composition_test) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc\n'}
+[0.180787] (composition_test) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc -- works\n'}
+[0.181735] (composition_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199586] (-) TimerEvent: {}
+[0.244679] (composition_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.257358] (composition_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.257588] (composition_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.259166] (composition_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++\n'}
+[0.299752] (-) TimerEvent: {}
+[0.330223] (composition_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ -- works\n'}
+[0.331296] (composition_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399862] (-) TimerEvent: {}
+[0.410182] (composition_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.421256] (composition_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.421570] (composition_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.422902] (composition_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.443530] (composition_test) StdoutLine: {'line': b'-- Found PythonInterp: /bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.443702] (composition_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /bin/python3\n'}
+[0.499946] (-) TimerEvent: {}
+[0.587838] (composition_test) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600058] (-) TimerEvent: {}
+[0.618394] (composition_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.623109] (composition_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.684493] (composition_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.700132] (-) TimerEvent: {}
+[0.706159] (composition_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.759748] (composition_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.795412] (composition_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.796335] (composition_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.796977] (composition_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800685] (-) TimerEvent: {}
+[0.863073] (composition_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.863338] (composition_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900811] (-) TimerEvent: {}
+[0.938505] (composition_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.938775] (composition_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.992484] (composition_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.992782] (composition_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.000914] (-) TimerEvent: {}
+[1.057082] (composition_test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.058271] (composition_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101019] (-) TimerEvent: {}
+[1.187530] (composition_test) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.201095] (-) TimerEvent: {}
+[1.229722] (composition_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.281899] (composition_test) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.282578] (composition_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.282760] (composition_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/peter/component_test/src/include\n'}
+[1.282839] (composition_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.283283] (composition_test) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.283367] (composition_test) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.283592] (composition_test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.283916] (composition_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.284205] (composition_test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.284686] (composition_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.284776] (composition_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.284966] (composition_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.286944] (composition_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.293702] (composition_test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.294709] (composition_test) StdoutLine: {'line': b'-- Build files have been written to: /home/peter/component_test/build/composition_test\n'}
+[1.300075] (composition_test) CommandEnded: {'returncode': 0}
+[1.300599] (composition_test) JobProgress: {'identifier': 'composition_test', 'progress': 'build'}
+[1.302440] (composition_test) Command: {'cmd': ['/bin/cmake', '--build', '/home/peter/component_test/build/composition_test', '--', '-j16', '-l16'], 'cwd': '/home/peter/component_test/build/composition_test', 'env': OrderedDict([('USER', 'peter'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '2151'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peter/component_test/install/composition_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/peter'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/peter/component_test'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/peter/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1850'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8a5cfea1a1c17a53d3c1fe61636d01d6'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6427'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/peter/component_test/install'), ('LOGNAME', 'peter'), ('JOURNAL_STREAM', '8:49467'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'peter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:@/tmp/.ICE-unix/2225,unix/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:/tmp/.ICE-unix/2225'), ('INVOCATION_ID', '91216eea845e430cb881cb278e8f338c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-335cb9d9f6.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/peter/component_test/install/composition_test:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'zh_CN.UTF-8'), ('PWD', '/home/peter/component_test/build/composition_test'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8a5cfea1a1c17a53d3c1fe61636d01d6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/tmp/vscode-zsh'), ('_P9K_TTY', '/dev/pts/2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/peter/component_test/install/composition_test:/opt/ros/foxy')]), 'shell': False}
+[1.303175] (-) TimerEvent: {}
+[1.342092] (composition_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_component\x1b[0m\n'}
+[1.342369] (composition_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker_component\x1b[0m\n'}
+[1.368378] (composition_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o\x1b[0m\n'}
+[1.368644] (composition_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o\x1b[0m\n'}
+[1.403306] (-) TimerEvent: {}
+[1.503614] (-) TimerEvent: {}
+[1.603935] (-) TimerEvent: {}
+[1.704282] (-) TimerEvent: {}
+[1.804637] (-) TimerEvent: {}
+[1.904987] (-) TimerEvent: {}
+[2.005746] (-) TimerEvent: {}
+[2.106037] (-) TimerEvent: {}
+[2.206349] (-) TimerEvent: {}
+[2.306693] (-) TimerEvent: {}
+[2.407022] (-) TimerEvent: {}
+[2.507320] (-) TimerEvent: {}
+[2.607618] (-) TimerEvent: {}
+[2.708611] (-) TimerEvent: {}
+[2.808907] (-) TimerEvent: {}
+[2.909842] (-) TimerEvent: {}
+[3.010453] (-) TimerEvent: {}
+[3.110812] (-) TimerEvent: {}
+[3.211115] (-) TimerEvent: {}
+[3.311409] (-) TimerEvent: {}
+[3.411702] (-) TimerEvent: {}
+[3.511992] (-) TimerEvent: {}
+[3.612298] (-) TimerEvent: {}
+[3.712594] (-) TimerEvent: {}
+[3.746208] (composition_test) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libtalker_component.so\x1b[0m\n'}
+[3.812699] (-) TimerEvent: {}
+[3.856143] (composition_test) StdoutLine: {'line': b'[ 75%] Built target talker_component\n'}
+[3.912822] (-) TimerEvent: {}
+[4.013105] (-) TimerEvent: {}
+[4.113371] (-) TimerEvent: {}
+[4.213624] (-) TimerEvent: {}
+[4.313923] (-) TimerEvent: {}
+[4.414457] (-) TimerEvent: {}
+[4.514753] (-) TimerEvent: {}
+[4.615010] (-) TimerEvent: {}
+[4.715263] (-) TimerEvent: {}
+[4.815528] (-) TimerEvent: {}
+[4.916430] (-) TimerEvent: {}
+[4.930477] (composition_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblistener_component.so\x1b[0m\n'}
+[5.016549] (-) TimerEvent: {}
+[5.078563] (composition_test) StdoutLine: {'line': b'[100%] Built target listener_component\n'}
+[5.088053] (composition_test) CommandEnded: {'returncode': 0}
+[5.116712] (-) TimerEvent: {}
+[5.120553] (composition_test) JobProgress: {'identifier': 'composition_test', 'progress': 'install'}
+[5.136403] (composition_test) Command: {'cmd': ['/bin/cmake', '--install', '/home/peter/component_test/build/composition_test'], 'cwd': '/home/peter/component_test/build/composition_test', 'env': OrderedDict([('USER', 'peter'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '2151'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peter/component_test/install/composition_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/peter'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/peter/component_test'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/peter/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1850'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8a5cfea1a1c17a53d3c1fe61636d01d6'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6427'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/peter/component_test/install'), ('LOGNAME', 'peter'), ('JOURNAL_STREAM', '8:49467'), ('_', '/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'peter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/bin:/usr/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:@/tmp/.ICE-unix/2225,unix/peter-ASUS-TUF-Gaming-A15-FA506QM-FA506QM:/tmp/.ICE-unix/2225'), ('INVOCATION_ID', '91216eea845e430cb881cb278e8f338c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LANG', 'zh_CN.UTF-8'), ('VSCODE_INJECTION', '1'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-335cb9d9f6.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/home/peter/component_test/install/composition_test:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'zh_CN.UTF-8'), ('PWD', '/home/peter/component_test/build/composition_test'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8a5cfea1a1c17a53d3c1fe61636d01d6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/tmp/vscode-zsh'), ('_P9K_TTY', '/dev/pts/2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/peter/component_test/install/composition_test:/opt/ros/foxy')]), 'shell': False}
+[5.143726] (composition_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.143943] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/lib/libtalker_component.so\n'}
+[5.145057] (composition_test) StdoutLine: {'line': b'-- Set runtime path of "/home/peter/component_test/install/composition_test/lib/libtalker_component.so" to ""\n'}
+[5.145215] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/lib/liblistener_component.so\n'}
+[5.147542] (composition_test) StdoutLine: {'line': b'-- Set runtime path of "/home/peter/component_test/install/composition_test/lib/liblistener_component.so" to ""\n'}
+[5.147646] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/launch\n'}
+[5.147728] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/launch/composition_test_demo.launch.py\n'}
+[5.147838] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/package_run_dependencies/composition_test\n'}
+[5.147971] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/parent_prefix_path/composition_test\n'}
+[5.148100] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/environment/ament_prefix_path.sh\n'}
+[5.148193] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/environment/ament_prefix_path.dsv\n'}
+[5.148293] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/environment/path.sh\n'}
+[5.148393] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/environment/path.dsv\n'}
+[5.148489] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.bash\n'}
+[5.148587] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.sh\n'}
+[5.148683] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.zsh\n'}
+[5.148776] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.dsv\n'}
+[5.148869] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/package.dsv\n'}
+[5.148999] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/packages/composition_test\n'}
+[5.149124] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/rclcpp_components/composition_test\n'}
+[5.149252] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/cmake/composition_testConfig.cmake\n'}
+[5.149329] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/cmake/composition_testConfig-version.cmake\n'}
+[5.149431] (composition_test) StdoutLine: {'line': b'-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/package.xml\n'}
+[5.150725] (composition_test) CommandEnded: {'returncode': 0}
+[5.216807] (-) TimerEvent: {}
+[5.217192] (composition_test) JobEnded: {'identifier': 'composition_test', 'rc': 0}
+[5.217769] (-) EventReactorShutdown: {}

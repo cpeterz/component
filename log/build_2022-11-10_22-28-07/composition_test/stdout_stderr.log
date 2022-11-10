@@ -1,0 +1,23 @@
+[ 50%] Built target talker_component
+[100%] Built target listener_component
+-- Install configuration: ""
+-- Up-to-date: /home/peter/component_test/install/composition_test/lib/libtalker_component.so
+-- Up-to-date: /home/peter/component_test/install/composition_test/lib/liblistener_component.so
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/launch
+-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/launch/composition_test_demo.launch.py
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/package_run_dependencies/composition_test
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/parent_prefix_path/composition_test
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/environment/path.sh
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/environment/path.dsv
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.bash
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.sh
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.zsh
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/local_setup.dsv
+-- Installing: /home/peter/component_test/install/composition_test/share/composition_test/package.dsv
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/packages/composition_test
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/ament_index/resource_index/rclcpp_components/composition_test
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/cmake/composition_testConfig.cmake
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/cmake/composition_testConfig-version.cmake
+-- Up-to-date: /home/peter/component_test/install/composition_test/share/composition_test/package.xml

@@ -1,0 +1,139 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe575cbf520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe575cbf520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe575cbfa60>)
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.116s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/peter/component_test'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src' with type 'ros.ament_cmake' and name 'composition_test'
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.148s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/peter/component_test/install/composition_test' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.148s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/peter/component_test/install/composition_test' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.149s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/peter/component_test/install
+[0.150s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/foxy
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'composition_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'composition_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peter/component_test/build/composition_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peter/component_test/install/composition_test', 'merge_install': False, 'path': '/home/peter/component_test/src', 'symlink_install': False, 'test_result_base': None}
+[0.204s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.208s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peter/component_test/src' with build type 'ament_cmake'
+[0.208s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peter/component_test/src'
+[0.212s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/component_test/build/composition_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake /home/peter/component_test/src -DCMAKE_INSTALL_PREFIX=/home/peter/component_test/install/composition_test
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/component_test/build/composition_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake /home/peter/component_test/src -DCMAKE_INSTALL_PREFIX=/home/peter/component_test/install/composition_test
+[1.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/component_test/build/composition_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/component_test/build/composition_test -- -j16 -l16
+[5.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/component_test/build/composition_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/peter/component_test/build/composition_test -- -j16 -l16
+[5.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peter/component_test/build/composition_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/component_test/build/composition_test
+[5.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(composition_test)
+[5.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peter/component_test/build/composition_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/peter/component_test/build/composition_test
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test' for CMake module files
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test' for CMake config files
+[5.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('composition_test', 'cmake_prefix_path')
+[5.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/cmake_prefix_path.ps1'
+[5.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/component_test/install/composition_test/share/composition_test/hook/cmake_prefix_path.dsv'
+[5.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/cmake_prefix_path.sh'
+[5.368s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/lib'
+[5.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('composition_test', 'ld_library_path_lib')
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/ld_library_path_lib.ps1'
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/component_test/install/composition_test/share/composition_test/hook/ld_library_path_lib.dsv'
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/ld_library_path_lib.sh'
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/bin'
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/lib/pkgconfig/composition_test.pc'
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/lib/python3.8/site-packages'
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/bin'
+[5.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.ps1'
+[5.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/component_test/install/composition_test/share/composition_test/package.dsv'
+[5.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.sh'
+[5.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.bash'
+[5.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.zsh'
+[5.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/component_test/install/composition_test/share/colcon-core/packages/composition_test)
+[5.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(composition_test)
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test' for CMake module files
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test' for CMake config files
+[5.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('composition_test', 'cmake_prefix_path')
+[5.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/cmake_prefix_path.ps1'
+[5.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/component_test/install/composition_test/share/composition_test/hook/cmake_prefix_path.dsv'
+[5.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/cmake_prefix_path.sh'
+[5.419s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/lib'
+[5.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('composition_test', 'ld_library_path_lib')
+[5.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/ld_library_path_lib.ps1'
+[5.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peter/component_test/install/composition_test/share/composition_test/hook/ld_library_path_lib.dsv'
+[5.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peter/component_test/install/composition_test/share/composition_test/hook/ld_library_path_lib.sh'
+[5.421s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/bin'
+[5.421s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/lib/pkgconfig/composition_test.pc'
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/lib/python3.8/site-packages'
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/peter/component_test/install/composition_test/bin'
+[5.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.ps1'
+[5.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peter/component_test/install/composition_test/share/composition_test/package.dsv'
+[5.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.sh'
+[5.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.bash'
+[5.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/peter/component_test/install/composition_test/share/composition_test/package.zsh'
+[5.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peter/component_test/install/composition_test/share/colcon-core/packages/composition_test)
+[5.424s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.425s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.429s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.445s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/component_test/install/local_setup.ps1'
+[5.449s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peter/component_test/install/_local_setup_util_ps1.py'
+[5.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/component_test/install/setup.ps1'
+[5.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/component_test/install/local_setup.sh'
+[5.451s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peter/component_test/install/_local_setup_util_sh.py'
+[5.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/component_test/install/setup.sh'
+[5.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/component_test/install/local_setup.bash'
+[5.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/component_test/install/setup.bash'
+[5.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peter/component_test/install/local_setup.zsh'
+[5.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peter/component_test/install/setup.zsh'
